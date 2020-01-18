@@ -1,8 +1,8 @@
 # calculator.py
-u = 47
-v = 7
-#u = int(input('Insert first number: '))
-#v = int(input('Insert second number: '))
+#u = 47
+#v = 7
+u = float(input('Insert first number: '))
+v = float(input('Insert second number: '))
 def add(x, y):
     z = x + y
     symbol = '+'
