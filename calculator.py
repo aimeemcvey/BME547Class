@@ -1,4 +1,5 @@
 # calculator.py
+import math
 #u = 47
 #v = 7
 u = float(input('Insert first number: '))
@@ -23,6 +24,10 @@ def divide(x, y):
     z = x / y
     return z
 
+def square_root(x):
+    z = math.sqrt(x)
+    return z
+
 
 x = input('Enter a letter: ')
 print('You entered {}' .format(x))
@@ -40,6 +45,9 @@ elif x == 'm':
 elif x == 'd':
     d = divide(u, v)
     print('{} / {} = {}' .format(u, v, d))
+elif x == 'r':
+    d = square_root(u)
+    print('sqrt({}) = {}' .format(u, d))
 else:
     print('{} not recognized' .format(x))
 print("Finished")
