@@ -21,7 +21,8 @@ def new_point_calc(x1, y1, x2, y2):
 
 
 def new_pair(m, y0):
-    new_x = float(input("Give me another x: "))
+    #new_x = float(input("Give me another x: "))
+    new_x = 2
     new_y = m*new_x + y0
     print("Your y for a point on this line is {}." .format(new_y))
 
