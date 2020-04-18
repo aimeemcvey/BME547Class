@@ -1,3 +1,7 @@
 pytest
 pytest-pep8
 requests
+numpy
+matplotlib
+Pillow
+scikit-image
